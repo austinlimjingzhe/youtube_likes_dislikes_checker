@@ -1,0 +1,21 @@
+<html>
+<head>
+    <style>
+    p{text-align:center;font-size=100px}
+    .img-container{text-align:center}
+    </style>
+    </head>
+    <body>
+        <p><strong><font size="7">Youtube Likes/Dislikes Checker</font></strong></p>
+        <div class="img-container"> <!-- Block parent element -->
+        <image src="{{url_for('static',filename='images/YouTube_logo.png')}}" width="600" height="300"/>
+        <p></p>
+        <image src="{{url_for('static',filename='images/ldl_ratio.png')}}" width="600" height="300"/>
+        </div>
+        <form method="post">
+            <p><font size="5">URL:</font></p>
+            <p><font size="5"><input type="text" name="url"/></font></p>
+            <p><font size="5"><input type="submit" value="check"/></font></p>
+        </form>    
+    </body>
+</html>

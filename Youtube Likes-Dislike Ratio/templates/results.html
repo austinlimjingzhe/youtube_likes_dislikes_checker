@@ -1,0 +1,22 @@
+<html>
+<head>
+    <style>
+    p{text-align:center}
+    .img-container{text-align:center}
+    </style>
+    </head>
+    <body>
+        <p><strong><font size="7">Youtube Likes/Dislikes Checker</font></strong></p>
+        <div class="img-container"> <!-- Block parent element -->
+            <image src="{{content[0]}}" width="1000" height="500"/>
+            <p><strong><font size="6">{{content[1]}}</strong> has:</font></p>
+        </div>
+        <div id="chart" class="chart"></div>        
+    </body>
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript">
+        var graphs = {{graphJSON | safe}};
+        Plotly.plot('chart',graphs,{});        
+</script>
+</html>
