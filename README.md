@@ -9,6 +9,9 @@ Hence, this very basic app was built following tutorials by Tech with Tim and Al
 
 ![video demo 2](https://user-images.githubusercontent.com/88301287/144248822-15ee6435-9b68-4d98-8794-6ae33eed5012.gif)
 
+UPDATE:
+YouTube has officially removed dislikes from the API's retrievable statistics, invalidating this application's code.
+
 References:
 
 1. Pedro Hernández: https://medium.com/mcd-unison/youtube-data-api-v3-in-python-tutorial-with-examples-e829a25d2ebd
